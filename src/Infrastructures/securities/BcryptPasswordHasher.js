@@ -1,4 +1,4 @@
-const PasswordHasher = require('../../Applications/security/PasswordHasher');
+const PasswordHasher = require('../../Applications/securities/PasswordHasher');
 
 class BcryptPasswordHasher extends PasswordHasher {
   constructor(bcrypt, saltRound = 10) {
