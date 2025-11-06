@@ -1,6 +1,4 @@
 const AdduserUseCase = require('../../../../Applications/use_cases/AddUserUseCase');
-const ClientError = require('../../../../Commons/exceptions/ClientError');
-const DomainErrorMapper = require('../../../../Commons/exceptions/DomainErrorMapper');
 
 class UsersHandler {
   constructor(container) {
